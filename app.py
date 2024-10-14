@@ -4,8 +4,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import load_model  # type: ignore
 
-# Load the pre-trained model
-#model = load_model('model.h5')
+model = load_model('model.h5')
 
 def preprocess_image(image):
     image = image.resize((224, 224))  
