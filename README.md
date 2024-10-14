@@ -29,5 +29,4 @@ The model is based on a convolutional neural network (CNN) architecture optimize
 
 
 ## Run the app.py to make use of the application.
-
-## streamlit run app.py
+streamlit run app.py
